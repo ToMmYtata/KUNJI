@@ -1,5 +1,6 @@
 const config = require('./config.js');
 
+const newPrefix = '!';
 if(config.shardManager.shardStatus == true){
 
 const { ShardingManager } = require('discord.js');
